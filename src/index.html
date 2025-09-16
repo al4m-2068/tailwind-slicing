@@ -11,20 +11,22 @@
 </head>
 <body class="bg-dRed font-mainFont text-second text-center">
     <div class="flex flex-col items-center w-full">
-        <header class="fixed px-5 w-full max-w-[1024px] h-20 flex items-center justify-between duration-100 transition-all">
-            <div>
-                <h1 class="text-2xl font-bold"><span class="font-serif">the</span>GROW</h1>
+        <header class="fixed w-full h-20 flex items-center justify-center duration-100 transition-all">
+            <div class="px-5 w-full max-w-[1024px] h-20 flex items-center justify-between duration-100 transition-all">
+                <div>
+                    <h1 class="text-2xl font-bold"><span class="font-serif">the</span>GROW</h1>
+                </div>
+        
+                <nav>
+                    <img src="assets/burger-bar.png" alt="menu-bar" class="w-8 h-8 lg:hidden">
+                    <ul class="flex flex-col px-5 lg:px-0 absolute lg:static top-0 left-0 duration-300 transition-all -translate-x-full lg:translate-x-0 text-left h-screen w-[60%] bg-vdRed pt-6 lg:pt-0 lg:flex-row lg:justify-between lg:w-full lg:bg-transparent lg:h-max lg:gap-5 text-xl">
+                        <img src="assets/close.png" alt="close-bar" class="p-1 w-8 h-8 lg:hidden mb-5">
+                        <li class="py-2 lg:p-0"><a href="#home">Home</a></li>
+                        <li class="py-2 lg:p-0"><a href="#about">About</a></li>
+                        <li class="py-2 lg:p-0"><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
             </div>
-    
-            <nav>
-                <img src="assets/burger-bar.png" alt="menu-bar" class="w-8 h-8 lg:hidden">
-                <ul class="flex flex-col px-5 lg:px-0 absolute lg:static top-0 left-0 duration-300 transition-all -translate-x-full lg:translate-x-0 text-left h-screen w-[60%] bg-vdRed pt-6 lg:pt-0 lg:flex-row lg:justify-between lg:w-full lg:bg-transparent lg:h-max lg:gap-5 text-xl">
-                    <img src="assets/close.png" alt="close-bar" class="p-1 w-8 h-8 lg:hidden mb-5">
-                    <li class="py-2 lg:p-0"><a href="#home">Home</a></li>
-                    <li class="py-2 lg:p-0"><a href="#about">About</a></li>
-                    <li class="py-2 lg:p-0"><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
         </header>
 
         <section id="home" class="flex flex-col lg:flex-row items-center justify-center lg:justify-between h-screen w-full px-5 lg:text-left gap-9 max-w-[1024px]">
